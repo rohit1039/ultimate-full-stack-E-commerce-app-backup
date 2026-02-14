@@ -10,7 +10,7 @@ All URIs are relative to *http://localhost:8081/users*
 
 | Class                      | Method                                                                | HTTP request                                | Description                                                             |
 ----------------------------|-----------------------------------------------------------------------|---------------------------------------------|-------------------------------------------------------------------------
-| *UserServiceApi*           | [**downloadFile**](docs/UserServiceApi.md#downloadFile)               | **GET** /v1/download-file/{avatarName}      | Download image of user by file code                                     |
+| *UserServiceApi*           | [**downloadFile**](src/main/java/com/ecommerce/userservice/controller/UserServiceController.java#downloadFile)               | **GET** /v1/download-file/{avatarName}      | Download image of user by file code                                     |
 | *UserServiceApi*           | [**exportToExcel**](docs/UserServiceApi.md#exportToExcel)             | **GET** /v1/export/excel                    | Export user&#x27;s data in Excel                                        |
 | *UserServiceApi*           | [**exportToPdf**](docs/UserServiceApi.md#exportToPdf)                 | **GET** /v1/export/pdf                      | Export user&#x27;s data in Pdf                                          |
 | *UserServiceApi*           | [**getAllUsers**](docs/UserServiceApi.md#getAllUsers)                 | **GET** /v1/all                             | Get all users managed by admins                                         |
